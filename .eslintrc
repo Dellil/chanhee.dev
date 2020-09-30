@@ -10,6 +10,7 @@
         "react/jsx-indent": ["error", 4],
         "no-console": "off",
         "react/jsx-filename-extension": "off",
-        "comma-dangle": "warn"
+        "comma-dangle": "warn",
+        "import/no-unresolved": "off"
     }
 }
