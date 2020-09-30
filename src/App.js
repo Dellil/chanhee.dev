@@ -1,11 +1,7 @@
 import React from 'react';
 
 function App() {
-    return (
-        <div className="App">
-            <div>fuck</div>
-        </div>
-    );
+    return <div>하와와와와와</div>;
 }
 
 export default App;
