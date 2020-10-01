@@ -8,8 +8,9 @@ import {
     HeaderItem,
     HeaderLink,
     HeaderLogoLink,
-    HeaderButton,
 } from './Header.elements';
+
+import HeaderButton from './HeaderButton';
 
 function Header() {
     return (

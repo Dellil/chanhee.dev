@@ -8,6 +8,7 @@
     "plugins": ["import", "react-hooks"],
     "rules": {
         "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
         "no-console": "off",
         "react/jsx-filename-extension": "off",
         "comma-dangle": "warn",
