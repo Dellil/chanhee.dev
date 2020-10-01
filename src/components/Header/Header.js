@@ -11,8 +11,9 @@ import {
 } from './Header.elements';
 
 import HeaderButton from './HeaderButton';
+import ThemeSwitcher from './ThemeSwitcher';
 
-function Header() {
+function Header({ theme, toggleTheme }) {
     return (
         <>
             <HeaderWrapper>
@@ -23,7 +24,12 @@ function Header() {
                         </HeaderLogoLink>
                     </HeaderLogo>
                     <HeaderMenu>
-                        <HeaderItem>ThemeSwitcher</HeaderItem>
+                        <HeaderItem>
+                            <ThemeSwitcher
+                                theme={theme}
+                                toggleTheme={toggleTheme}
+                            />
+                        </HeaderItem>
                         <HeaderItem>
                             <HeaderLink to="/">
                                 <HeaderButton>

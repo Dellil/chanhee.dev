@@ -9,9 +9,17 @@ export default createGlobalStyle`
 `;
 
 export const theme = {
-    header: {
-        height: '70px',
-        backgroundColor: '#7048e8',
+    light: {
+        header: {
+            height: '70px',
+            backgroundColor: '#7048e8',
+        },
+    },
+    dark: {
+        header: {
+            height: '70px',
+            backgroundColor: '#343a40',
+        },
     },
 };
 
