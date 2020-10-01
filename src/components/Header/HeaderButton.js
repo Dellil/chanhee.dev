@@ -20,6 +20,12 @@ export const Button = styled.button`
     &:hover {
         color: #ced4da;
     }
+    &:active {
+        outline: none;
+    }
+    &:focus {
+        outline: none;
+    }
 `;
 
 export default function HeaderButton({ children }) {
