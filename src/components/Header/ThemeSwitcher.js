@@ -49,11 +49,11 @@ const DarkTheme = () => {
     return (
         <IconContext.Provider value={{ color: 'white' }}>
             <ThemePaper>
-                <Paper bgColor="#212529" style={{ paddingLeft: '5px' }}>
+                <Paper bgColor="#495057" style={{ paddingLeft: '5px' }}>
                     <FaMoon />
                 </Paper>
                 <Paper
-                    bgColor="#212529"
+                    bgColor="#495057"
                     style={{ paddingRight: '5px', cursor: 'pointer' }}
                 >
                     <FaBars />
