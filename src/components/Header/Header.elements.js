@@ -13,49 +13,39 @@ export const HeaderWrapper = styled.header`
 export const HeaderContainer = styled(Container)`
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
 `;
 
 export const HeaderLogo = styled.div`
     display: flex;
     justify-content: flex-start;
+    height: 100%;
+    margin-left: 20px;
 `;
 
 // HEADER MENU
 export const HeaderMenu = styled.ul`
     list-style-type: none;
     display: flex;
+    margin-right: 20px;
 `;
 
 export const HeaderItem = styled.li`
     display: flex;
     align-items: center;
 
-    &:nth-child(2) {
+    &:not(:first-child) {
         margin-left: 15px;
     }
-`;
-
-export const HeaderText = styled.p`
-    color: white;
 `;
 
 export const HeaderLink = styled(Link)`
     text-decoration: none;
     display: flex;
     align-items: center;
-    height: ${(props) => props.theme.header.height};
-    padding: 0 15px;
-    transition: all 0.15s ease-out;
 
-    & * {
-        transition: all 0.15s ease-out;
-    }
-    &:hover {
-        text-decoration-color: #ced4da;
-        & * {
-            color: #ced4da;
-        }
-    }
+    transition: all 0.15s ease-out;
 `;
 
 // LOGO
@@ -64,4 +54,26 @@ export const HeaderLogoLink = styled(HeaderLink)`
     align-items: center;
     text-decoration: underline;
     color: white;
+
+    transition: all 0.15s ease-out;
+    &:hover {
+        text-decoration-color: #ced4da;
+        color: #ced4da;
+    }
+`;
+
+export const HeaderButton = styled.button`
+    padding: 10px 25px;
+    font-size: 1.15rem;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+
+    transition: all 0.15s ease-out;
+    &:hover {
+        color: #ced4da;
+    }
 `;

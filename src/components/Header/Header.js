@@ -8,7 +8,7 @@ import {
     HeaderItem,
     HeaderLink,
     HeaderLogoLink,
-    HeaderText,
+    HeaderButton,
 } from './Header.elements';
 
 function Header() {
@@ -25,12 +25,16 @@ function Header() {
                         <HeaderItem>ThemeSwitcher</HeaderItem>
                         <HeaderItem>
                             <HeaderLink to="/">
-                                <HeaderText>HOME</HeaderText>
+                                <HeaderButton>
+                                    <p>HOME</p>
+                                </HeaderButton>
                             </HeaderLink>
                         </HeaderItem>
                         <HeaderItem>
                             <HeaderLink to="/projects">
-                                <HeaderText>PROJECTS</HeaderText>
+                                <HeaderButton>
+                                    <p>PROJECTS</p>
+                                </HeaderButton>
                             </HeaderLink>
                         </HeaderItem>
                     </HeaderMenu>
