@@ -9,6 +9,7 @@
     "rules": {
         "react/jsx-indent": ["error", 4],
         "react/jsx-indent-props": ["error", 4],
+        "react/prop-types": "off",
         "no-console": "off",
         "react/jsx-filename-extension": "off",
         "comma-dangle": "warn",
