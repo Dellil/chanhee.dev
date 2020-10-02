@@ -21,14 +21,12 @@ export const HeaderLogo = styled.div`
     display: flex;
     justify-content: flex-start;
     height: 100%;
-    margin-left: 20px;
 `;
 
 // HEADER MENU
 export const HeaderMenu = styled.ul`
     list-style-type: none;
     display: flex;
-    margin-right: 20px;
 `;
 
 export const HeaderItem = styled.li`

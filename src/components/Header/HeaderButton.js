@@ -6,6 +6,8 @@ import Ripple from './Ripple';
 export const Button = styled.button`
     padding: 10px 25px;
     font-size: 1.15rem;
+    font-family: 'Source Code Pro';
+    font-weight: bold;
     background-color: transparent;
     border-radius: 20px;
     border: none;
