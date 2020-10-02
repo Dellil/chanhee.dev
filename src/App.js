@@ -11,8 +11,8 @@ function App() {
     const themeStyle = browserTheme === 'light' ? theme.light : theme.dark;
     return (
         <>
-            <GlobalStyles />
             <ThemeProvider theme={themeStyle}>
+                <GlobalStyles />
                 <Router>
                     <Header theme={browserTheme} toggleTheme={toggleTheme} />
                     <Switch>

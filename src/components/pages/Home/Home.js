@@ -1,7 +1,9 @@
 import React from 'react';
 
+import Profile from '../../Profile/Profile';
+
 function Home() {
-    return <div>여어~</div>;
+    return <Profile />;
 }
 
 export default Home;

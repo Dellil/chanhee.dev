@@ -6,6 +6,10 @@ export default createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+
+    body {
+        background-color: ${({ theme }) => theme.backgroundColor}
+    }
 `;
 
 export const theme = {
@@ -14,12 +18,14 @@ export const theme = {
             height: '70px',
             backgroundColor: '#7048e8',
         },
+        backgroundColor: 'ghostwhite',
     },
     dark: {
         header: {
             height: '70px',
             backgroundColor: '#343a40',
         },
+        backgroundColor: '#495057',
     },
 };
 
