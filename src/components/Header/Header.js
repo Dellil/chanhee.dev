@@ -16,8 +16,8 @@ import ThemeSwitcher from './ThemeSwitcher';
 function Header({ theme, toggleTheme }) {
     return (
         <>
-            <HeaderWrapper>
-                <HeaderContainer>
+            <HeaderContainer>
+                <HeaderWrapper>
                     <HeaderLogo>
                         <HeaderLogoLink to="/">
                             <h1>JCH</h1>
@@ -45,8 +45,8 @@ function Header({ theme, toggleTheme }) {
                             </HeaderLink>
                         </HeaderItem>
                     </HeaderMenu>
-                </HeaderContainer>
-            </HeaderWrapper>
+                </HeaderWrapper>
+            </HeaderContainer>
         </>
     );
 }

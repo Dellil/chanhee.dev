@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Container } from '../../GlobalStyles';
 
-export const HeaderWrapper = styled.header`
+export const HeaderContainer = styled.header`
     width: 100%;
     height: ${(props) => props.theme.header.height};
     background-color: ${(props) => props.theme.header.backgroundColor};
@@ -14,11 +14,16 @@ export const HeaderWrapper = styled.header`
     }
 `;
 
-export const HeaderContainer = styled(Container)`
+export const HeaderWrapper = styled(Container)`
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
+
+    @media screen and (max-width: 520px) {
+        padding: 0 10px;
+    }
 `;
 
 export const HeaderLogo = styled.div`

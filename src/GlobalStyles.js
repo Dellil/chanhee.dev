@@ -18,12 +18,26 @@ export const theme = {
             height: '70px',
             backgroundColor: '#7048e8',
         },
+        profile: {
+            borderColor: '#dee2e6',
+            borderRight: '#dee2e6',
+            backgroundColor: 'white',
+            primaryColor: '#343a40',
+            secondColor: '#868e96',
+        },
         backgroundColor: 'ghostwhite',
     },
     dark: {
         header: {
             height: '70px',
             backgroundColor: '#343a40',
+        },
+        profile: {
+            borderColor: '#495057',
+            borderRight: '#212529',
+            backgroundColor: '#343a40',
+            primaryColor: '#f1f3f5',
+            secondColor: '#ced4da',
         },
         backgroundColor: '#495057',
     },
@@ -32,9 +46,4 @@ export const theme = {
 export const Container = styled.div`
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 20px;
-
-    @media screen and (max-width: 520px) {
-        padding: 0 10px;
-    }
 `;
