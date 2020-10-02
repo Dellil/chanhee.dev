@@ -9,6 +9,9 @@ export const HeaderContainer = styled.header`
     background-color: ${(props) => props.theme.header.backgroundColor};
     font-family: 'Source Code Pro';
 
+    position: sticky;
+    top: 0;
+    left: 0;
     @media screen and (max-width: 520px) {
         height: 50px;
     }
