@@ -68,7 +68,7 @@ export const TextContainer = styled.div`
     }
 
     @media screen and (max-width: 1200px) {
-        padding: 10px 10px 0;
+        padding: 30px 10px 0;
     }
 
     @media screen and (max-width: 840px) {
@@ -141,6 +141,10 @@ export const Description = styled.p`
 
         & + p {
             margin-top: 5px;
+        }
+
+        &:last-of-type {
+            padding-bottom: 10px;
         }
 
         font-size: 0.7rem;
