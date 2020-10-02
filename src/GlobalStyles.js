@@ -20,7 +20,7 @@ export const theme = {
         },
         profile: {
             borderColor: '#dee2e6',
-            borderRight: '#dee2e6',
+            border: '#dee2e6',
             backgroundColor: 'white',
             primaryColor: '#343a40',
             secondColor: '#868e96',
@@ -34,7 +34,7 @@ export const theme = {
         },
         profile: {
             borderColor: '#495057',
-            borderRight: '#212529',
+            border: '#212529',
             backgroundColor: '#343a40',
             primaryColor: '#f1f3f5',
             secondColor: '#ced4da',
