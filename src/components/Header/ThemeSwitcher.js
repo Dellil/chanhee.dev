@@ -13,6 +13,11 @@ const ThemeContainer = styled.div`
     align-items: center;
     overflow: hidden;
     position: relative;
+
+    @media screen and (max-width: 520px) {
+        width: 50px;
+        height: 25px;
+    }
 `;
 
 const Paper = styled.div`
@@ -22,6 +27,16 @@ const Paper = styled.div`
     justify-content: center;
     align-items: center;
     background-color: ${(props) => props.bgColor};
+
+    @media screen and (max-width: 520px) {
+        width: 25px;
+        height: 25px;
+
+        & svg {
+            width: 10px;
+            height: 10px;
+        }
+    }
 `;
 
 const ThemePaper = styled.div`

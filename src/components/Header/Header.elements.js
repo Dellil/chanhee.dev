@@ -8,6 +8,10 @@ export const HeaderWrapper = styled.header`
     height: ${(props) => props.theme.header.height};
     background-color: ${(props) => props.theme.header.backgroundColor};
     font-family: 'Source Code Pro';
+
+    @media screen and (max-width: 520px) {
+        height: 50px;
+    }
 `;
 
 export const HeaderContainer = styled(Container)`
@@ -36,12 +40,19 @@ export const HeaderItem = styled.li`
     &:not(:first-child) {
         margin-left: 10px;
     }
+
+    @media screen and (max-width: 520px) {
+        &:not(:first-child) {
+            margin-left: 5px;
+        }
+    }
 `;
 
 export const HeaderLink = styled(Link)`
     text-decoration: none;
     display: flex;
     align-items: center;
+    border-radius: 20px;
 
     transition: all 0.15s ease-out;
 `;
@@ -57,5 +68,16 @@ export const HeaderLogoLink = styled(HeaderLink)`
     &:hover {
         text-decoration-color: #ced4da;
         color: #ced4da;
+    }
+
+    @media screen and (max-width: 520px) {
+        &:hover {
+            color: white;
+            text-decoration-color: white;
+        }
+
+        & h1 {
+            font-size: 1.3rem;
+        }
     }
 `;

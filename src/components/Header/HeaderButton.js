@@ -28,6 +28,15 @@ export const Button = styled.button`
     &:focus {
         outline: none;
     }
+
+    @media screen and (max-width: 520px) {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+
+        &:hover {
+            color: white;
+        }
+    }
 `;
 
 export default function HeaderButton({ children }) {
