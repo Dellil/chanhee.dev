@@ -11,6 +11,11 @@ export const InfoLink = styled.a`
     max-width: 25%;
     margin: 0 20px;
     text-decoration: none;
+    z-index: 990;
+    transition: all 0.15s;
+    &:hover {
+        transform: scale(1.1);
+    }
 `;
 
 export const InfoWrapper = styled.div`
