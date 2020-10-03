@@ -4,19 +4,6 @@ import { Container } from '../../GlobalStyles';
 
 export const ProfileContainer = styled(Container)`
     margin-top: 20px;
-    padding: 0 20px;
-
-    @media screen and (max-width: 840px) {
-        padding: 0 50px;
-    }
-
-    @media screen and (max-width: 840px) {
-        margin-bottom: 20px;
-    }
-
-    @media screen and (max-width: 480px) {
-        padding: 0 20px;
-    }
 `;
 
 export const ProfileWrapper = styled.div`
@@ -34,14 +21,14 @@ export const ProfileWrapper = styled.div`
 `;
 
 export const ProfileImageContainer = styled.div`
-    border-right: 3px solid ${({ theme }) => theme.profile.border};
+    border-right: 2px solid ${({ theme }) => theme.profile.border};
     flex-basis: 33.333%;
     display: flex;
     align-items: center;
 
     @media screen and (max-width: 840px) {
         border-right: none;
-        border-bottom: 3px solid ${({ theme }) => theme.profile.border};
+        border-bottom: 2px solid ${({ theme }) => theme.profile.border};
     }
 `;
 
