@@ -11,10 +11,19 @@ export const InfoLink = styled.a`
     max-width: 25%;
     margin: 0 20px;
     text-decoration: none;
-    z-index: 990;
+    z-index: 500;
     transition: all 0.15s;
     &:hover {
         transform: scale(1.1);
+    }
+
+    @media screen and (max-width: 840px) {
+        flex-basis: 50%;
+        max-width: 50%;
+
+        &:not(:first-child) {
+            margin-top: 20px;
+        }
     }
 `;
 
@@ -25,6 +34,10 @@ export const InfoWrapper = styled.div`
     width: 100%;
 
     margin-bottom: 20px;
+
+    @media screen and (max-width: 840px) {
+        flex-direction: column;
+    }
 `;
 
 export const InfoCard = styled.div`
@@ -56,6 +69,10 @@ export const InfoMainText = styled.p`
     color: white;
     font-size: 1.8rem;
     text-align: center;
+
+    @media screen and (max-width: 1000px) {
+        font-size: 1.5rem;
+    }
 `;
 
 export const InfoContent = styled.div`
@@ -72,4 +89,8 @@ export const InfoText = styled.p`
     padding: 15px 10px 15px;
     line-height: 1.3rem;
     color: ${({ theme }) => theme.info.secondColor};
+
+    @media screen and (max-width: 1000px) {
+        font-size: 0.9rem;
+    }
 `;
