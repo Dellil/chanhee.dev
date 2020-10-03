@@ -113,6 +113,7 @@ export const SubText = styled.h3`
 export const Description = styled.p`
     color: ${({ theme }) => theme.profile.secondColor};
     line-height: 1.4rem;
+    font-weight: bold;
 
     &:first-of-type {
         margin-top: 45px;
