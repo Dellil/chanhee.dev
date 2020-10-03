@@ -18,8 +18,7 @@ export const InfoLink = styled.a`
     }
 
     @media screen and (max-width: 840px) {
-        flex-basis: 50%;
-        max-width: 50%;
+        max-width: 100%;
 
         &:not(:first-child) {
             margin-top: 20px;

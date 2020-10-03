@@ -22,7 +22,11 @@ function Info() {
                     <InfoCard>
                         <InfoMain backgroundColor="#9775fa">
                             <InfoMainText>
-                                {`<FullStack> Chanlendar </FullStack>`}
+                                {`<FullStack>`}
+                                <br />
+                                Chanlendar
+                                <br />
+                                {`</FullStack>`}
                             </InfoMainText>
                         </InfoMain>
                         <InfoContent>
@@ -39,7 +43,9 @@ function Info() {
                             <InfoMainText>
                                 {`<AI>`}
                                 <br />
-                                TaxiDemand Prediction
+                                TaxiDemand
+                                <br />
+                                Prediction
                                 <br />
                                 {`</AI>`}
                             </InfoMainText>
