@@ -59,8 +59,7 @@ export const TextContainer = styled.div`
     }
 
     @media screen and (max-width: 840px) {
-        padding-top: 30px;
-        padding-left: 30px;
+        padding: 30px 15px 0 15px;
         &:not(:last-child) {
             border-right: none;
             border-bottom: 3px solid ${({ theme }) => theme.profile.border};
@@ -113,7 +112,6 @@ export const SubText = styled.h3`
 export const Description = styled.p`
     color: ${({ theme }) => theme.profile.secondColor};
     line-height: 1.4rem;
-    /* font-weight: bold; */
 
     &:first-of-type {
         margin-top: 45px;
