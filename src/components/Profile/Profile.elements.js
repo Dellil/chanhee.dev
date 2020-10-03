@@ -14,7 +14,7 @@ export const ProfileWrapper = styled.div`
     pointer-events: none;
     user-select: none;
     background-color: ${({ theme }) => theme.profile.backgroundColor};
-
+    margin: 0 20px;
     @media screen and (max-width: 840px) {
         flex-direction: column;
     }
@@ -113,7 +113,7 @@ export const SubText = styled.h3`
 export const Description = styled.p`
     color: ${({ theme }) => theme.profile.secondColor};
     line-height: 1.4rem;
-    font-weight: bold;
+    /* font-weight: bold; */
 
     &:first-of-type {
         margin-top: 45px;
