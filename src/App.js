@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import GlobalStyles, { theme } from './GlobalStyles';
 import { Header } from './components';
-import { Home } from './components/pages';
+import { Home, Projects } from './components/pages';
 import { useTheme } from './hooks';
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
                     <Header theme={browserTheme} toggleTheme={toggleTheme} />
                     <Switch>
                         <Route path="/" exact component={Home} />
+                        <Route path="/projects" exact component={Projects} />
                     </Switch>
                 </Router>
             </ThemeProvider>

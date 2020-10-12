@@ -31,6 +31,13 @@ export const theme = {
             primaryColor: '#343a40',
             secondColor: '#495057',
         },
+        project: {
+            backgroundColor: '#fcfeff',
+            titleBackground: 'white',
+            contentBackground: '#e9ecef',
+            primaryColor: '#343a40',
+            secondColor: '#495057',
+        },
         backgroundColor: 'ghostwhite',
     },
     dark: {
@@ -51,6 +58,13 @@ export const theme = {
             primaryColor: '#f1f3f5',
             secondColor: '#ced4da',
         },
+        project: {
+            backgroundColor: '#343a40',
+            titleBackground: '#212529',
+            contentBackground: '#2f353b',
+            primaryColor: '#f1f3f5',
+            secondColor: '#ced4da',
+        },
         backgroundColor: '#495057',
     },
 };
@@ -61,9 +75,6 @@ export const Container = styled.div`
 
     @media screen and (max-width: 840px) {
         padding: 0 50px;
-    }
-
-    @media screen and (max-width: 840px) {
         margin-bottom: 20px;
     }
 
