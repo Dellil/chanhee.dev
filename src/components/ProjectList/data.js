@@ -24,7 +24,7 @@ export default [
         text:
             '뭔가 텍스트가 있습니다.뭔가 텍스트가 있습니다.뭔가 텍스트가 있습니다.뭔가 텍스트가 있습니다.뭔가 텍스트가 있습니다.뭔가 텍스트가 있습니다.뭔가 텍스트가 있습니다.',
         date: '2019-10-23',
-        description: '서울특별시 택시 수요',
+        description: '서울특별시 택시 수요 예측',
         link: 'https://github.com/Dellil/TaxiDemandPrediction',
     },
 ];
