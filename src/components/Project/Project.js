@@ -18,7 +18,7 @@ function Project({ title, image, text, date, description, link }) {
     return (
         <ProjectContainer href={link}>
             <ProjectTitle>
-                <ProjectTitleText>{title}</ProjectTitleText>
+                <ProjectTitleText title={title}>{title}</ProjectTitleText>
             </ProjectTitle>
             <ProjectContent>
                 {image ? (
@@ -32,7 +32,7 @@ function Project({ title, image, text, date, description, link }) {
                     <ProjectDateText>{date}</ProjectDateText>
                 </ProjectDate>
                 <ProjectDescription>
-                    <ProjectDescriptionText>
+                    <ProjectDescriptionText title={description}>
                         {description}
                     </ProjectDescriptionText>
                 </ProjectDescription>

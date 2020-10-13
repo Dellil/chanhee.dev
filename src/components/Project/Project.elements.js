@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const ProjectContainer = styled.a`
     display: flex;
     flex-direction: column;
-    flex: 1;
-    max-width: 33%;
+    flex: 0 0 30%;
+    max-width: 30%;
     text-decoration: none;
 
-    margin: 0 20px;
+    margin: 10px;
 
     background-color: ${({ theme }) => theme.project.backgroundColor};
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
@@ -16,6 +16,11 @@ export const ProjectContainer = styled.a`
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+
+    @media screen and (max-width: 840px) {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 `;
 
 export const ProjectTitle = styled.div`
@@ -69,13 +74,9 @@ export const ProjectText = styled.div`
 export const ProjectDescriptionContainer = styled.div`
     display: flex;
     flex-direction: column;
-
-    height: 100px;
 `;
 
 export const ProjectDate = styled.div`
-    height: 50px;
-
     display: flex;
     align-items: flex-start;
     padding-left: 10px;
@@ -85,25 +86,23 @@ export const ProjectDate = styled.div`
 export const ProjectDateText = styled.span`
     border: 1px solid ${({ theme }) => theme.project.secondColor};
     color: ${({ theme }) => theme.project.secondColor};
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px 10px 5px 10px;
     border-radius: 5px;
 `;
 
 export const ProjectDescription = styled.div`
-    height: 50px;
-
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 10px;
-
+    height: 50px;
+    padding: 0 20px;
     overflow: hidden;
-    text-overflow: ellipsis;
 `;
 
 export const ProjectDescriptionText = styled.p`
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     color: ${({ theme }) => theme.project.secondColor};
 `;

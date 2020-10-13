@@ -9,6 +9,8 @@ export const ProjectsContainer = styled(Container)`
 
 export const ProjectsWrapper = styled.div`
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0 20px;
 `;
