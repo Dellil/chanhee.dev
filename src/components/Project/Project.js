@@ -16,7 +16,7 @@ import {
 
 function Project({ title, image, text, date, description, link }) {
     return (
-        <ProjectContainer href={link}>
+        <ProjectContainer href={link} target="_blank">
             <ProjectTitle>
                 <ProjectTitleText title={title}>{title}</ProjectTitleText>
             </ProjectTitle>

@@ -133,7 +133,7 @@ export const Description = styled.p`
             padding-bottom: 10px;
         }
 
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     @media screen and (max-width: 840px) {

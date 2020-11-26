@@ -44,9 +44,6 @@ function Profile() {
                             성공은 매일 반복한 노력의 합이라는 말을 가슴에 품고
                             있습니다.
                         </Description>
-                        <Description>
-                            테스트의 중요성을 깨닫고, 테스팅을 공부하려 합니다.
-                        </Description>
                         <Description>봐주셔서 감사합니다.</Description>
                     </Texts>
                 </TextContainer>

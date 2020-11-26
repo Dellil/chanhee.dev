@@ -3,7 +3,7 @@ export default [
         title: 'QueueUnderWolf',
         image: '',
         text: 'Clone coding of StackOverFlow',
-        date: '2020-10-22',
+        date: '2020-11-27',
         description: '스택오버플로우 클론코딩',
         link: 'https://github.com/Dellil/',
     },
@@ -34,6 +34,23 @@ export default [
         date: '2019-10-23',
         description: '서울특별시 택시 수요 예측',
         link: 'https://github.com/Dellil/TaxiDemandPrediction',
+    },
+    {
+        title: '병원데이터API 사용',
+        image: '',
+        text: '병원 데이터 크롤링 및 차트 시각화',
+        date: '2018-08',
+        description: 'JSP + MYSQL',
+        link: 'https://youtu.be/X-E5cjJJ8uI',
+    },
+    {
+        title: 'JavaPhoto',
+        image:
+            'https://user-images.githubusercontent.com/42995061/68526313-ca3aaf80-031d-11ea-89d3-e819788e5aff.png',
+        text: '',
+        date: '2017-11',
+        description: '스윙으로 만든 그림판',
+        link: 'https://github.com/Dellil/JavaPhoto',
     },
 ];
 //
