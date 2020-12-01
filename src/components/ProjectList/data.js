@@ -3,7 +3,7 @@ export default [
         title: 'QueueUnderWolf',
         image: '',
         text: 'Clone coding of StackOverFlow',
-        date: '2020-11-27',
+        date: '2020-12-01',
         description: '스택오버플로우 클론코딩',
         link: 'https://github.com/Dellil/',
     },

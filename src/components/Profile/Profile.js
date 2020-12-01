@@ -35,10 +35,11 @@ function Profile() {
                 </TextContainer>
                 <TextContainer>
                     <Texts>
-                        <TitleText>간단소개</TitleText>
+                        <TitleText>자기소개</TitleText>
                         <SubText>ABOUT ME</SubText>
                         <Description>
-                            책 읽는 걸 좋아해서, 독서 모임에 참가중입니다.
+                            독서를 좋아하고, 작문 능력 상승을 위해 독서 모임에
+                            참가중입니다.
                         </Description>
                         <Description>
                             성공은 매일 반복한 노력의 합이라는 말을 가슴에 품고
