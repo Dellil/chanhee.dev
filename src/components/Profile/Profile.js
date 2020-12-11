@@ -38,8 +38,7 @@ function Profile() {
                         <TitleText>자기소개</TitleText>
                         <SubText>ABOUT ME</SubText>
                         <Description>
-                            독서를 좋아하고, 작문 능력 상승을 위해 독서 모임에
-                            참가중입니다.
+                            매일 성장을 추구하고 취미가 독서인 개발자입니다.
                         </Description>
                         <Description>
                             성공은 매일 반복한 노력의 합이라는 말을 가슴에 품고
