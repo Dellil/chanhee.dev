@@ -1,5 +1,14 @@
 export default [
     {
+        title: 'Learning Language',
+        image:
+            'https://user-images.githubusercontent.com/42995061/102711446-2af83200-42fd-11eb-9816-dc2069753564.png',
+        text: '',
+        date: '2020-12-20 START',
+        description: '단어 테스트 제공 서비스',
+        link: 'https://github.com/Dellil/LearningLanguage',
+    },
+    {
         title: 'Chanlendar',
         image:
             'https://user-images.githubusercontent.com/42995061/92151409-07979d00-ee5c-11ea-8252-274739e42b95.gif',
