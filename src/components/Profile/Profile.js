@@ -27,10 +27,8 @@ function Profile() {
                         <Description>
                             양영디지털고등학교 S/W개발과 졸업
                         </Description>
-                        <Description>React, Node.js를 다룹니다.</Description>
-                        <Description>
-                            프론트엔드 개발자를 꿈꾸는 자택경비원입니다.
-                        </Description>
+                        <Description>React를 다룹니다.</Description>
+                        <Description>프론트엔드 개발자입니다.</Description>
                     </Texts>
                 </TextContainer>
                 <TextContainer>

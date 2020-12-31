@@ -5,7 +5,7 @@ export default [
             'https://user-images.githubusercontent.com/42995061/102711446-2af83200-42fd-11eb-9816-dc2069753564.png',
         text: '',
         date: '2020-12-20 START',
-        description: '단어 테스트 제공 서비스',
+        description: '암기 테스트 제공 서비스',
         link: 'https://github.com/Dellil/LearningLanguage',
     },
     {
