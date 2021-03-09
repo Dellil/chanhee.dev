@@ -4,7 +4,7 @@ export default [
         image:
             'https://user-images.githubusercontent.com/42995061/102711446-2af83200-42fd-11eb-9816-dc2069753564.png',
         text: '',
-        date: '2021-02-11 START',
+        date: '2021-02-11 START - ING',
         description: '테스트 제공 서비스',
         link: 'https://github.com/Dellil/LearningLanguage',
     },
