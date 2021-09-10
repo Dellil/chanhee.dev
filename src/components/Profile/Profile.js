@@ -34,7 +34,7 @@ function Profile() {
                             React를 다루는 프론트엔드 개발자입니다.
                         </Description>
                         <Description>
-                            최근 읽는 책은 숨결이 바람 될 때와 YDKJS입니다!
+                            헬스를 시작한지 5개월된 헬린이이자 애독가입니다!
                         </Description>
                     </Texts>
                 </TextContainer>
@@ -43,12 +43,12 @@ function Profile() {
                         <TitleText>자기소개</TitleText>
                         <SubText>ABOUT ME</SubText>
                         <Description>
-                            매일 성장을 추구하고 책 읽는 것을 좋아하는
-                            개발자입니다.
+                            매일 성장을 추구하고 독서를 좋아하는 개발자입니다.
                         </Description>
                         <Description>
-                            "오늘 우리가 경험하고 듣고 배우고 행하는 것이 내일의
-                            우리를 만든다" 라는 말을 가슴에 품고 있습니다.
+                            "아주 간단한 일이지만 미래에 대해 밝고 적극적으로
+                            행동하는 것이 일과 인생을 밝혀주는 첫번째 조건이다."
+                            라는 말을 좋아합니다!
                         </Description>
                         <Description>봐주셔서 감사합니다!</Description>
                     </Texts>
